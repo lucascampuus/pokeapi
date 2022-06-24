@@ -136,14 +136,10 @@ if ( $dadospokemon = @file_get_contents( 'https://pokeapi.co/api/v2/pokemon/' . 
                                 </div>
                                 <div class="card-body">';
 
-
-  //$nstats=$pokemonteste['stats'][0]['stat']['name'];
   $cc = 0;
   foreach ( $pokemonteste[ 'stats' ] as $results ) {
     $nstats = $results[ 'stat' ][ 'name' ];
     $bstats = $results[ 'base_stat' ];
-    //print_r(nstats);
-    //$resposta.=''.$nstats.'='.$bstats.'';
     $color = array( 'success', 'primary', 'warning', 'danger', 'info', 'light' );
 
 
