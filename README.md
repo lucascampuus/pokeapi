@@ -3,8 +3,8 @@
 </p>
 
 # Dev 
-> Template Bootstrap
-> Desenvolvido em PHP/JS
+> Template Bootstrap <BR>
+> Desenvolvido em PHP/JS <BR>
 > Dados da API (https://pokeapi.co/)
 
 
